@@ -10,7 +10,9 @@ class DemoApplicationIT {
 
 	@Test
 	void my_simple_integration_test() {
-		assertEquals(1, 1);
+		int b = 1;
+		int a = 1;
+		assertEquals(a, b);
 		System.out.println("This is a integration test!");
 	}
 
